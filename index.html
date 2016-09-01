@@ -137,9 +137,7 @@
 
 	document.getElementById('incremnetAsync')
 		.addEventListener('click', function(){
-			setTimeout(function(){
-				store.dispatch({type: 'INCREMENT'})
-			}, 1000);
+			store.dispatch(incremnetAsync())
 		});
 	
 
