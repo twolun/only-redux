@@ -156,4 +156,6 @@ document.getElementById('incremnetAsync')
 	});
 ```
 
+具体的代码中用的redux相关api没有详细说明，因为都很多了，[可以参考这篇文章](http://cn.redux.js.org/docs/api/Store.html)
+
 
